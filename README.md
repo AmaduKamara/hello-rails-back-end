@@ -28,7 +28,7 @@
   ```
 - Clone [The Frontend Repo](https://github.com/AmaduKamara/hello-react-front-end)
   ```
-  git clone https://github.com/AmaduKamara/hello-rails-back-end
+  git clone https://github.com/AmaduKamara/hello-react-front-end
   ```
 - The API route to get greetings:
 
