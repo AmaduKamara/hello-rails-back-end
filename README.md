@@ -10,10 +10,10 @@
 
 ## Built With
 
-- React
 - Ruby on Rails
 - PostgreSQL
 - TailwindCSS
+- React
 - Redux
 - React Router Dom
 - Axios
