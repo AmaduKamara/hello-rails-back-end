@@ -1,24 +1,97 @@
-# README
+# Hello World Rails Greetings Backend App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Backend App that generates random greetings powered by a frontend application.
 
-Things you may want to cover:
+**App Screenshots**
 
-* Ruby version
+![image](https://user-images.githubusercontent.com/50941074/165738616-a0e1d294-58c7-4b6d-8c08-e6a32e5fc1c1.png)
 
-* System dependencies
+![image](https://user-images.githubusercontent.com/50941074/165738519-bedb1da6-24bc-413d-babd-9e7ad6a2190d.png)
 
-* Configuration
+## Built With
 
-* Database creation
+- Ruby on Rails
+- PostgreSQL
+- TailwindCSS
+- React
+- Redux
+- React Router Dom
+- Axios
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+- [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) on your local machine
+- [Install Ruby on Rails](https://guides.rubyonrails.org/v5.1/getting_started.html)
+- Clone [this repository](https://github.com/AmaduKamara/hello-rails-back-end)
+  ```
+  git clone https://github.com/AmaduKamara/hello-rails-back-end
+  ```
+- Clone [The Frontend Repo](https://github.com/AmaduKamara/hello-react-front-end)
+  ```
+  git clone https://github.com/AmaduKamara/hello-react-front-end
+  ```
+- The API route to get greetings:
 
-* Services (job queues, cache servers, search engines, etc.)
+  ```
+  http://localhost:3000/v1/greetings
+  ```
+- To get started, In the root directory run:
 
-* Deployment instructions
+  ```
+  gem install bundler
+  ```
 
-* ...
+  Then run:
+
+  ```
+  bundle install
+  ```
+
+  To start the server run:
+
+  ```
+  rails s
+  ```
+
+  Open the browser with `localhost:3000`
+
+## After installing bundle
+
+Please run the following commands `rails db:create` `rails db:migrate` `rails s`
+
+### To track linter errors locally follow these steps:
+
+Track linter errors run:
+
+```
+rubocop
+```
+
+## Author
+
+:man: **Amadu Kamara (Amkam)**
+
+- [GitHub](https://github.com/AmaduKamara)
+- [LinkedIn](https://www.linkedin.com/in/amadu-kamara-3b60a25b)
+- [Twitter](https://twitter.com/DevAmkam)
+- [Facebook](https://www.facebook.com/amadus.kamara.7)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/AmaduKamara/hello-react-front-end/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+Original design: Microverse React Rails App
+
+- Inspiration: Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
